@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FizzSeven.Api/FizzSeven.Api.csproj" />
+    <Project Path="src/FizzSeven.AppHost/FizzSeven.AppHost.csproj" />
+    <Project Path="src/FizzSeven.Core/FizzSeven.Core.csproj" />
+    <Project Path="src/FizzSeven.ServiceDefaults/FizzSeven.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FizzSeven.Api.Tests/FizzSeven.Api.Tests.csproj" />
+  </Folder>
+</Solution>
