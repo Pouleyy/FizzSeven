@@ -7,5 +7,5 @@ public sealed class FizzBuzzOptions
     public const string SectionName = "FizzBuzz";
 
     [Range(1, int.MaxValue)]
-    public int MaxLimit { get; init; } = 10_000;
+    public int MaxLimit { get; init; } = 100;
 }
