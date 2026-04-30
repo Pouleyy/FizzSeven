@@ -36,6 +36,13 @@ In development, the API docs are available with Scalar at `/scalar/v1`.
 
 With the default settings, the AppHost starts Redis automatically. If you switch to in-memory statistics, Redis is not required.
 
+## Project structure
+
+- `src/FizzSeven.Core`: core FizzBuzz domain logic
+- `src/FizzSeven.Api`: HTTP endpoints, validation, configuration, and statistics services
+- `src/FizzSeven.AppHost`: local orchestration for the API and Redis with Aspire
+- `tests/FizzSeven.Api.Tests`: unit and API-level tests
+
 ## What the API does
 
 - `GET /api/v1/fizzbuzz` returns the generated sequence
