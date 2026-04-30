@@ -1,4 +1,5 @@
-using FizzSeven.Api.Endpoints;
+using FizzSeven.Api.Features.FizzBuzz;
+using FizzSeven.Api.Features.Statistics;
 using Scalar.AspNetCore;
 
 namespace FizzSeven.Api.Configuration;

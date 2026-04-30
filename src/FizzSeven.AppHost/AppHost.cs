@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 var builder = DistributedApplication.CreateBuilder(args);
 
 var useInMemoryStatisticsStore = builder.Configuration.GetValue<bool>("Statistics:UseInMemoryStore");
